@@ -1,0 +1,33 @@
+body{
+    background-color: #6359CD;
+    margin: 0;
+    padding: 0;  
+}
+
+.configuration {
+    background-color: #3148AD;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.table {
+    /* border-collapse permet d'éviter que les cases (qui sont des cellules de tableau) ne soient espacées les unes des autres */
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 10%;
+}
+.line {
+    background-color: #F0F;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: #686868 3px solid;
+    background-color: rgb(210, 210, 210);
+    border-spacing: 0px;
+    }
+
+.black {
+    background-color: rgb(0, 0, 0);
+}
