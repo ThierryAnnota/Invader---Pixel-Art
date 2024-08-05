@@ -10,11 +10,50 @@ body{
     width: 100%;
 }
 
+#colorButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaa;
+    height : 10vh;
+    box-sizing: border-box ;
+}
+
+.color {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.white{
+    background-color: #FFF;
+}
+
+
 .table {
     /* border-collapse permet d'éviter que les cases (qui sont des cellules de tableau) ne soient espacées les unes des autres */
     border-collapse: collapse;
     margin: auto;
     margin-top: 10%;
+    cursor: pointer;
 }
 .line {
     background-color: #F0F;
@@ -23,8 +62,8 @@ body{
 .cell {
     width: 20px;
     height: 20px;
-    border: #686868 3px solid;
-    background-color: rgb(210, 210, 210);
+    border: #81a1b0 2px solid;
+    background-color: #fff;
     border-spacing: 0px;
     }
 
