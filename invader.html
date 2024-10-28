@@ -9,23 +9,38 @@
 </head>
 <body>
     <form class="configuration">
-        <input type="text" placeholder="choississez la taille de la grille" class="gridSize">
-        <!-- <input type="range" id="rangePixelNumber" name="pixelNumber" min="5" max="100">
-        <output value=parseInt(pixelNumber.value)></output> -->
-        <!-- <input type="text" name="" id=""> -->
-        <button>Valider</button>
+        <input type="text" placeholder="choisissez la taille de la grille" class="gridSize">
+        <input type="text" placeholder="choisissez la taille des cases" class="cellSize">
+        <button class="formButton">Valider</button>
     </form>
     <div id="colorButton">
         <div class="color black"></div>
         <div class="color blue"></div>
-        <div class="color red"></div>
+        <div class="color lightblue"></div>
         <div class="color green"></div>
+        <div class="color lightgreen"></div>
         <div class="color yellow"></div>
+        <div class="color orange"></div>
+        <div class="color lightsalmon"></div>
         <div class="color white"></div>
+        <div class="color pink"></div>
+        <div class="color purple"></div>
+        <div class="color red"></div>
+        <div class="color burlywood"></div>
+        <div class="color brown"></div>
+    </div>
+    <div class="sousTitre">
+    <div id="gridSize">
+        <div class="gridCells">Actuellement, vous dessinez sur une grille de <span class="gridCellsNumber">8</span> cases.</div>
+        <div class="cellPixel">La taille des cases est de <span class="cellPixelSize">50</span> pixels.</div>
+    </div>
+    <button id="saveImage">Enregistrer l'image</button>
     </div>
     <div id="invader">
         
     </div>
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
 </body>
 </html>
