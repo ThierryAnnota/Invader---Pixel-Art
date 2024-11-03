@@ -9,6 +9,7 @@ body{
     max-width: 90vw;
     overflow-x: auto;
     margin: auto;
+    padding-bottom: 10px;
 
 }
 #gridSize {
@@ -150,7 +151,24 @@ body{
 @media screen and (max-width: 800px){
     #colorButton {
         flex-wrap: wrap;
-        height: 15vh;
-        overflow: scroll;
+        height: auto;
+    }
+    .color {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .color {
+        height: 20px;
+        width: 20px;
+    }
+    .configuration{
+        flex-direction: column;
+        padding: 5px 0px;
+    }
+    .sousTitre {
+        width: 70%;
     }
 }
